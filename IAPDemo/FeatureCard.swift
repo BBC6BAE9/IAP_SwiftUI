@@ -13,7 +13,7 @@ struct FeatureCard: View {
         VStack(){
             Image(uiImage: UIImage(named: plusFeature.image)!)
                 .resizable()
-                .frame(width: 89, height: 89)
+                .frame(width: 68, height: 68)
                 .cornerRadius(15)
                 .padding(.bottom, 4)
                 .padding(.top, 0)
